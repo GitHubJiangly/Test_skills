@@ -1,4 +1,17 @@
 1.these skills in wechat
-1        910475020113805266	J8CMCKKF9AGMQEU3
-2        910127020113524809	84CYV8677YKDHU4R
-3        910222020113537919	NYE666E9B8YB7E7K
+"permissions": {
+    "allow": [
+      "Bash(powershell.exe -Command \"try { $p = Start-Process -FilePath ''f:\\\\code\\\\test_claude_code\\\\bubble_sort.exe'' -Wait -PassThru -NoNewWindow; Write-Host ''Exit: ''$p.ExitCode } catch { Write-Host $_.Exception.Message }\")",
+      "Bash(for f in *)",
+      "Bash(do echo \"$f\")",
+      "Bash(done)",
+      "Bash(find articles:*)",
+      "Bash(python3:*)",
+      "Bash(python3 -c \"print\\(''ok''\\)\")",
+      "Bash(where python:*)"
+    ]
+  },
+  "model": "haiku",
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true
+  }
